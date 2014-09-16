@@ -62,16 +62,12 @@ namespace ConsoleApplication2
             get { return MyOpenPrice; }
             set { MyOpenPrice = value; }
         }
-
-
         // high price
         public decimal HighPrice
         {
             get { return MyHighPrice; }
             set { MyHighPrice = value; }
         }
-
-
         // low price
         public decimal LowhPrice
         {
@@ -84,24 +80,25 @@ namespace ConsoleApplication2
             get { return MyVolume; }
             set { MyVolume = value; }
         }
-
         // myadjprice
         public decimal AdjPrice
         {
             get { return MyAdjPrice; }
             set { MyAdjPrice = value; }
         }
+        // close price
         public decimal ClosePrice
         {
             get { return MyClosePrice; }
             set { MyClosePrice = value; }
         }
         // date
-        public DateTime dt
+        public DateTime Date
         {
             get { return Mydt; }
             set { Mydt = value; }
         }
+        // id ticker
         public string ID
         {
             get { return MyID; }

@@ -58,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SQL.cs" />
     <Compile Include="LiveDataSet.cs">
       <DependentUpon>LiveDataSet.xsd</DependentUpon>
       <SubType>Component</SubType>

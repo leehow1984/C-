@@ -20,13 +20,23 @@ namespace ConsoleApplication2
         {
 
             string DataString;
-            DataString = "http://real-chart.finance.yahoo.com/table.csv?s=GLD&a=" + 
-                          (StartDate.Month -1) + "&b=" + StartDate.Day + "&c=" + StartDate.Year +
-                          "&d=" + (EndDate.Month - 1) + "&b=" + EndDate.Day + "&c=" + EndDate.Year + "&g=d&ignore=.csv";
-
+            DataString = "http://ichart.finance.yahoo.com/table.csv?s=" + id +
+                         "&d=" + (StartDate.Month - 1) + "&e=" + StartDate.Day + "&f=" + StartDate.Year +
+                         "&g=d&a=" + (EndDate.Month-1) + "&b=" + EndDate.Day  + "&c=" + EndDate.Year +  "&ignore=.csv";
+            
+            
             WebClient web = new WebClient();
-            string csvData = web.DownloadString(DataString);
-            YahooEODData EODData = Parse(csvData);
+            YahooEODData EODData = new YahooEODData();
+            try
+            {
+                string csvData = web.DownloadString(DataString);
+                EODData = Parse(csvData);
+            }
+            catch
+            {
+                Console.WriteLine(id + " can not be found in yahoo finance");
+            }
+
 
             decimal y = 0;
             return EODData;
@@ -47,7 +57,7 @@ namespace ConsoleApplication2
 
                 if (i != 1)
                 {
-                    EODData.dt = Convert.ToDateTime(cols[0]);
+                    EODData.Date  = Convert.ToDateTime(cols[0]);
                     EODData.OpenPrice = Convert.ToDecimal(cols[1]);
                     EODData.HighPrice = Convert.ToDecimal(cols[2]);
                     EODData.LowhPrice = Convert.ToDecimal(cols[3]);

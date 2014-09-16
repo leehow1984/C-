@@ -5,3 +5,10 @@ C:\Users\Hao\Desktop\STUDY\Codes\C#\Chap9(polimorphism\ConsoleApplication2\Conso
 C:\Users\Hao\Desktop\STUDY\Codes\C#\Chap9(polimorphism\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
 C:\Users\Hao\Desktop\STUDY\Codes\C#\Chap9(polimorphism\ConsoleApplication2\ConsoleApplication2\bin\Debug\Database1.sdf
 C:\Users\Hao\Desktop\STUDY\Codes\C#\Chap9(polimorphism\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\Hao\Desktop\STUDY\Codes\C#\Chap9(polimorphism\ConsoleApplication2\C-\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\Hao\Desktop\STUDY\Codes\C#\Chap9(polimorphism\ConsoleApplication2\C-\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.exe
+C:\Users\Hao\Desktop\STUDY\Codes\C#\Chap9(polimorphism\ConsoleApplication2\C-\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.pdb
+C:\Users\Hao\Desktop\STUDY\Codes\C#\Chap9(polimorphism\ConsoleApplication2\C-\ConsoleApplication2\bin\Debug\Database1.sdf
+C:\Users\Hao\Desktop\STUDY\Codes\C#\Chap9(polimorphism\ConsoleApplication2\C-\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\Hao\Desktop\STUDY\Codes\C#\Chap9(polimorphism\ConsoleApplication2\C-\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\Hao\Desktop\STUDY\Codes\C#\Chap9(polimorphism\ConsoleApplication2\C-\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
