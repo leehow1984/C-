@@ -31,6 +31,7 @@ namespace ConsoleApplication2
             {
                 string csvData = web.DownloadString(DataString);
                 EODData = Parse(csvData);
+                Console.WriteLine(id + " is downloaded successfully from yahoo finance");
             }
             catch
             {

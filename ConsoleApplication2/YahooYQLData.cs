@@ -53,9 +53,7 @@ namespace ConsoleApplication2
         
         
         }
-
-
-        
+ 
         // open price
         public decimal OpenPrice
         {
